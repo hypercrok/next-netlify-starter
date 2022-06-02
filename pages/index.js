@@ -9,10 +9,19 @@ export default function Home() {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+<script>
+	
+ 
+var btnSelam=document.getElementById("selam");
+	btnSelam.onclick=function(){
+		window.alert("Siteme Hoşgeldiniz İyi Eğlenceler.");
+	}
+</script>
+  
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Siteme Hoşgeldiniz !" />
         <p className="description">
+    
           Get started by editing <code>pages/index.js</code>
         </p>
       </main>
